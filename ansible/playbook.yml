@@ -1,4 +1,0 @@
-- name: hello
-  hosts: server
-  roles:
-    - copy
