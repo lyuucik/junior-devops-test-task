@@ -1,0 +1,4 @@
+- name: Copy file to server
+  ansible.builtin.copy:
+    src: file.txt
+    dest: /tmp/file.txt
